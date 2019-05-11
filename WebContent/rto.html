@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=3">
+<style>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("13.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 200px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+    width:50%;
+     margin-left: 200px;
+   margin-bottom: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+label{
+color:white;margin-left: 200px;
+}
+</style>
+</head>
+<body>
+<h1 style="margin-left: 600px;color: white;font-style: oblique;">RTO REGISTRATION FORM</h1>
+		<form action="login" style="border:2px solid white;width:800px;height:100%; border-radius: 100px; margin-left: 400px;">
+		<div class="container">
+			<label for="first_name"><b>first_name</b></label> <br><input type="text"
+				placeholder="Enter first name" name="first_name" required> <br>
+				<label for="last_name"><b>last_name</b></label><br> <input type="text"
+				placeholder="Enter last name" name="last_name" required> <br><label
+				for="email"><b>email</b></label><br> <input type="text"
+				placeholder="Enter email" name="email" required> <br>
+				<label for="registration_no."><b>Registration no.</b></label><br> <input type="text"
+				placeholder="Enter registration number" name="registration_no." required> <br>
+				<label for="vehicle_class"><b>vehicle class</b></label><br> 
+				<select name="vehicle_class">
+				<option value="lmv">LMV</option>
+				<option value="hcv">HCV</option>
+				<option value="mcv">MCV</option>
+				<option value="mrv">MRV</option>
+				<option value="hrv">HRV</option>
+			    </select> <br><br>
+			    <label for="vehicle_categories"><b>vehicle categories</b></label><br> 
+				<select name="vehicle_categories">
+				<option value="m">vehicles carrying passenger</option>
+				<option value="n">vehicle carrying good</option>
+				<option value="l">2 and 3 wheel vehicle</option>
+				<option value="t">agriculture and forestry tractors</option>
+			    </select> <br><br>
+			   <label for="brand"><b>brand name</b></label> <br>
+				<select name="brand">
+				<option value="audi">audi</option>
+				<option value="hyundai">hyundai</option>
+				<option value="ford">ford</option>
+				<option value="chevrolet">chevrolet</option>
+			    </select> <br><br>
+			    <label for="seating"><b>seating capacity</b></label><br> <input type="text"
+				placeholder="Enter seating capacity" name="seating" required> <br>
+				<label for="power"><b>horse power</b></label> <br><input type="text"
+				placeholder="Enter horse power" name="power" required> <br>	
+				<label for="weight"><b>gross weight</b></label><br> <input type="text"
+				placeholder="Enter gross weight" name="weight" required> <br>
+				<label for="sale_amount"><b>sale amount</b></label><br> <input type="text"
+				placeholder="Enter sale amount" name="sale amount" required> <br>
+				<label for="color"><b>color</b></label><br> <input type="text"
+				placeholder="Enter color" name="color" required> <br>
+				<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
